@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{DD88E328-386F-4007-8048-5C1CB961E595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{39FD79DF-34AB-46D4-B541-283BDA6416FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{18E3FFC6-D4F5-450A-AAA6-A87285C2EBD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD88E328-386F-4007-8048-5C1CB961E595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD88E328-386F-4007-8048-5C1CB961E595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD88E328-386F-4007-8048-5C1CB961E595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD88E328-386F-4007-8048-5C1CB961E595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FD79DF-34AB-46D4-B541-283BDA6416FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FD79DF-34AB-46D4-B541-283BDA6416FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FD79DF-34AB-46D4-B541-283BDA6416FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FD79DF-34AB-46D4-B541-283BDA6416FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18E3FFC6-D4F5-450A-AAA6-A87285C2EBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18E3FFC6-D4F5-450A-AAA6-A87285C2EBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18E3FFC6-D4F5-450A-AAA6-A87285C2EBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18E3FFC6-D4F5-450A-AAA6-A87285C2EBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5BD30C5-2824-439A-BE42-8279971A21D3}
+	EndGlobalSection
+EndGlobal
